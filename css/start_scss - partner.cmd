@@ -1,0 +1,1 @@
+sass --watch partner.scss:partner.css

@@ -1,0 +1,77 @@
+.articles {
+		position: relative;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+		.item {
+			width: 366px;
+			background-color: rgb(255, 255, 255);
+			box-shadow: 0px 0px 45px 0px rgba(0, 0, 0, 0.16);
+			.img {
+				height: 232px;
+				display: -moz-flex;
+				display: -ms-flex;
+				display: -o-flex;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 30px;
+				img {
+					width: -webkit-fit-content;
+					width: -moz-fit-content;
+					width: fit-content;
+				}
+			}
+			.text {
+				padding: 0 20px;
+				display: -moz-flex;
+				display: -ms-flex;
+				display: -o-flex;
+				display: flex;
+				flex-direction: column;
+				padding-bottom: 38px;
+				height: 323px;
+				h3 {
+					padding-bottom: 20px;
+					border-bottom: 1px solid #dedede;
+					margin-bottom: 26px;
+					height: 72px;
+					font-family: 'OpenSans-ExtraBold';
+					font-size: 16px;
+					line-height: 24px;
+					color: #2d2d2d;
+					text-transform: uppercase;
+				}
+				.data {
+					color: #dedede;
+					font-size: 12px;
+					margin-bottom: 28px;
+				}
+				p {
+					font-size: 16px;
+					line-height: 24px;
+					font-family: 'OpenSans-Regular';
+					color: #000;
+					margin-bottom: 35px;
+					overflow: auto;
+					min-height: 24px;
+				}
+				.next {
+					color: #3b7858;
+					text-transform: uppercase;
+					font-family: "Montserrat-Bold";
+					font-size: 12px;
+					line-height: 20px;
+					border-bottom: 1px dashed;
+					width: -webkit-fit-content;
+					width: -moz-fit-content;
+					width: fit-content;
+					align-self: flex-end;
+					cursor: pointer;
+					margin-top: auto;
+				}
+			}
+		}
+	}
